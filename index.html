@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Recognize Animals By Voice !</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+        <div class=" col-xs-12 header_div text-center">
+            <h1 id="headerh">Sound Controlled Animals</h1>
+            <p id="headerp">Note : Play different sounds to recognize the animal.</p>
+        </div>
+        <div class="main_div text-center">
+            <br>
+            <button id="mainb" onclick="startRecognizing()" class="btn btn-primary"  style="width: 130;"> Start </button>
+            <h4 id="data_anaylsis"></h4>
+            <br>
+            <h3 id="final_result"></h3>
+            <br>
+            <img src="https://media.istockphoto.com/vectors/ear-icon-isolated-on-white-background-vector-id515190778?k=20&m=515190778&s=612x612&w=0&h=fxcXD--NBQnnPw1SClYL_F_kewxjxSzvBzkJM73WPAY=" id="result_image" width="400" height="375">             
+        <br>
+        <br>
+        </div>
+        <div class="copy_right_footer">
+             Developed By - Fadil Hameem N K 
+        </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
+

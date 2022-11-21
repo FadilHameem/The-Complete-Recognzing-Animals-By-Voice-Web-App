@@ -1,0 +1,41 @@
+.header_div{
+    background-color: gray;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    top: 0;
+}
+
+#headerh{
+    font-size: 30px;
+}
+
+#headerp{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: gray;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: lightgray;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.main_div{
+    font-family: 'Indie Flower', cursive;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+#mainb{
+    margin-top: 30px;
+}
